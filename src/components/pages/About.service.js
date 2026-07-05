@@ -10,11 +10,6 @@ export const stayUpToDateCards = [{
     text: "Subscribe to our newsletter",
     link: MUTUAL_AID_NEWSLETTER_SUBSCRIBE_LINK,
 }, {
-    image: iconMessagesIMG,
-    alt: "whatsapp link icon",
-    text: "Join the conversation on WhatsApp",
-    link: MUTUAL_AID_WHATSAPP_GROUP_LINK,
-}, {
     image: iconPicIMG,
     alt: "instagram link icon",
     text: "Follow us on Instagram for updates",

@@ -3,7 +3,7 @@ import "./GiveHelp.css";
 import peopleMakingDonationsIMG from "../../assets/people-making-donations.png"
 import newsletterIMG from "../../assets/newsletter.png"
 import pullingBoxesIMG from "../../assets/pulling-boxes.png"
-import { MUTUAL_AID_WHATSAPP_GROUP_LINK, MUTUAL_AID_WIKIPEDIA, MUTUAL_AID_NOTION_LINK, FLYER_PDF_LINK } from "../../config.js"
+import { MUTUAL_AID_WHATSAPP_GROUP, MUTUAL_AID_WIKIPEDIA, MUTUAL_AID_NOTION_LINK, FLYER_PDF_LINK } from "../../config.js"
 
 function GiveHelp() {
     return (
@@ -40,7 +40,7 @@ function Help() {
                 </div>
                 <div className="fancy-list-container standard-text">
                     <span><b>3</b></span>
-                    <span>Join us on <a className="text-important" href={MUTUAL_AID_WHATSAPP_GROUP_LINK} alt="mutual aid whatsapp link" target="_blank" rel="noreferrer">WhatsApp</a> to organize with other volunteers</span>
+                    <span>Join us on WhatsApp at: <br/><b>{MUTUAL_AID_WHATSAPP_GROUP}</b><br/> to organize with other volunteers</span>
                 </div>
             </div>
         </div>
